@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+label, select, input, button {
+    margin: 10px;
+}
+
+#resultado {
+    font-weight: bold;
+}

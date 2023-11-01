@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Unidades</h1>
+
+    <div>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor">
+    </div>
+
+    <div>
+        <label for="de">De:</label>
+        <select id="de">
+            <option value="metro">Metro</option>
+            <option value="quilometro">Quilômetro</option>
+            <option value="milha">Milha</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="para">Para:</label>
+        <select id="para">
+            <option value="metro">Metro</option>
+            <option value="quilometro">Quilômetro</option>
+            <option value="milha">Milha</option>
+        </select>
+    </div>
+
+    <button onclick="converter()">Converter</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
